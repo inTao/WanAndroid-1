@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">玩Android</string>
+    <string name="app_name">玩Android 1513128梁宗贤</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="home">首页</string>
@@ -83,7 +83,7 @@
     <string name="about_libraries_summary">查看开源许可信息</string>
     <string name="copyright">版权声明</string>
     <string name="copyright_summary">仅作个人及非商业用途</string>
-    <string name="version">版本</string>
+    <string name="version">版本 1513128梁宗贤</string>
 
     <!-- Setting -->
     <string name="setting">设置</string>
@@ -142,5 +142,5 @@
     <string name="switch_label">切换</string>
     <string name="priority_0">一般</string>
     <string name="priority_1">重要</string>
-
+    <string name="me">1513128梁宗贤</string>
 </resources>

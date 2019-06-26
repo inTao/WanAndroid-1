@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/viewBackground"
     android:fitsSystemWindows="true">
 
@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingLeft="@dimen/dp_24"
-        android:paddingRight="@dimen/dp_24"
-        android:paddingTop="@dimen/dp_60">
+        android:paddingTop="@dimen/dp_60"
+        android:paddingRight="@dimen/dp_24">
 
         <ImageView
             android:layout_width="@dimen/dp_80"
@@ -24,8 +24,8 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/dp_8"
             android:layout_marginTop="@dimen/dp_8"
+            android:layout_marginBottom="@dimen/dp_8"
             android:focusable="true"
             android:focusableInTouchMode="true">
 
@@ -40,8 +40,8 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/dp_8"
             android:layout_marginTop="@dimen/dp_8"
+            android:layout_marginBottom="@dimen/dp_8"
             android:focusable="true"
             android:focusableInTouchMode="true">
 
@@ -57,8 +57,8 @@
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/dp_24"
             android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginBottom="@dimen/dp_24"
             android:background="@drawable/btn_login_bg"
             android:gravity="center"
             android:padding="@dimen/dp_12"
@@ -73,6 +73,13 @@
             android:gravity="center"
             android:text="@string/no_account"
             android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/me" />
 
     </LinearLayout>
 </ScrollView>
